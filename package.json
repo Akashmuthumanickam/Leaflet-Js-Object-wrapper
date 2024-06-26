@@ -1,0 +1,24 @@
+{
+    "name": "my-sample-framework",
+    "version": "1.0.0",
+    "description": "A custom sample framework",
+    "main": "dist/bundle.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.7",
+        "@babel/preset-env": "^7.24.7",
+        "babel-loader": "^8.3.0",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "css-loader": "^7.1.2",
+        "leaflet": "^1.9.4",
+        "style-loader": "^4.0.0"
+    }
+}
